@@ -1,4 +1,5 @@
-import multiply, { multiplyByTwo as mBy2 } from "./multiply";
+// way1
+import multiply, { multiplyByTwo as mBy2, HelloWord } from "./multiply";
 
 const a = 3;
 const b = 2;
@@ -7,7 +8,7 @@ console.log(`${a} * ${b} = ${multiply(a, b)}`);
 mBy2(2);
 
 
-// ways2
+// way2
 // import * as multiplyModule from './multiply';
 
 // const a = 3;
