@@ -4,7 +4,7 @@ class Robot {
     // 2. instance members and property method 
     _color: string;
 
-    static availableColors = ['green' 'yellow'];
+    private static availableColors = ['green' 'yellow'];
     static isColorAvailable(color: string) {
         return Robot.availableColors.includes(color);
     };
