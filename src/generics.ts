@@ -47,7 +47,9 @@ interface Expirable {
   
   const expiredChocoCakes = getExpiredItems<ChocolateCake>(chocoCakes);
   const expiredVanillaCakes = getExpiredItems<VanillaCake>(vanillaCakes);
-  
+
+
+  // example2 
   class ShoppingCart<ItemId, Item extends { id: ItemId }> {
     private items: Array<Item> = [];
     addItem(item: Item) {
