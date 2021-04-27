@@ -1,5 +1,6 @@
 //1
-interface IOrder {
+import { IOrder } from './calculate-total-amount';
+export interface IOrder {
     calculateTotal(): number;
 }
 
